@@ -23,7 +23,14 @@
     }
   };
 
+  function speech () {
+    recognizer.start();
+  }
 
+  var synth = window.speechSynthesis;
+  var utterance = new SpeechSynthesisUtterance('How about we say this now? This is quite a long sentence to say.');
+
+ 
   </script>
 
 </body>
